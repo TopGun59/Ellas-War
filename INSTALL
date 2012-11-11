@@ -1,0 +1,9 @@
+Installation du client Ellàs War sur un système Windows
+
+- Installer Wamp après l'avoir téléchargé sur http://www.wampserver.com
+- Modifier le fichier host pour faire pointer clientv5.ellaswar.com sur localhost
+- Installer eclipse et déterminer le workspace
+- Installer le support de php sur eclipse
+- Installer le support de git dans eclipse
+- Modifier httpd pour faire pointer le domaine sur le site en local
+- Synchroniser le dépot avec celui d'Ellàs War

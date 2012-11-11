@@ -1,0 +1,381 @@
+#banniere {
+  background-image:url('../design/deco/banniere.png');
+}
+
+#barre_menu {
+  background-image:url('../design/deco/barre_menu.png');
+}
+
+#menu_gauche {
+  display:none;
+}
+
+#bouton_rejoindre {
+  position:relative;
+  float:left;
+  margin-left:123px;
+}
+
+#bouton_decouvrir {
+  position:relative;
+  float:left;
+  margin-left:25px;
+}
+
+#bouton_faq{
+  position:relative;
+  float:left;
+  margin-left:44px;
+}
+
+#bouton_accueil {
+  position:relative;
+  float:left;
+  margin-left:10px;
+}
+
+#bouton_forum {
+  position:relative;
+  float:left;
+  margin-left:11px;
+}
+
+#bouton_partenaires {
+  position:relative;
+  float:left;
+  margin-left:25px;
+}
+
+#bouton_contact {
+  position:relative;
+  float:left;
+  margin-left:22px;
+  margin-top:1px;
+}
+
+#plan_site {
+  position:relative;
+  float:left;
+  margin-left:280px;
+  width:400px;
+  font-size:13px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -moz-column-rule: 1px dotted #BBBBBB;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-rule: 1px dotted #BBBBBB;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px dotted #BBBBBB;
+}
+
+
+#cadre_login {
+  height:69px;
+  width:873px;
+  position:relative;
+  float:left;
+  background-image:url('../design/deco/cadre_login.png');
+  background-repeat:no-repeat;
+  margin-top:6px;
+  margin-left:11px;
+}
+
+#cadre_login1 {
+  position:relative;
+  float:left;
+  margin-top:17px;
+  margin-left:30px;
+}
+
+#cadre_login2 {
+  position:relative;
+  float:left;
+  text-align:right;
+  width:80px;
+  margin-top:3px;
+  font-size:1.6em;
+}
+
+#cadre_login3 {
+  position:relative;
+  float:left;
+  margin-left:5px;
+  margin-top:2px;
+  width:150px;
+}
+
+#cadre_login4 {
+  position:relative;
+  float:left;
+  margin-left:25px;
+  margin-right:5px;
+  margin-top:3px;
+  font-size:1.6em;
+}
+
+
+#cadre_login5 {
+  position:relative;
+  float:left;
+  text-align:center;
+  margin-top:2px;
+}
+
+
+#cadre_login6 {
+  position:relative;
+  float:left;
+  margin-left:15px;
+  margin-top:1px;
+  width:100px;
+}
+
+
+#cadre_login7 {
+  position:relative;
+  float:left;
+  width:100px;
+  margin-bottom:1px;
+}
+
+
+#cadre_login8 {
+  position:relative;
+  float:left;
+}
+
+
+#cadre_login9 {
+  position:relative;
+  float:left; 
+}
+
+
+#cadre_accueil {
+  height:79px;
+  width:873px;
+  position:relative;
+  float:left;
+  background-image:url('../design/deco/header_tab_accueil.png');
+  background-repeat:no-repeat;
+  margin-left:11px;
+}
+
+#cadre_accueil2 {
+  width:873px;
+  position:relative;
+  float:left;
+  background-image:url('../design/deco/font_texte_accueil.png');
+  background-repeat:repeat-y;
+  margin-left:11px;
+  min-height:5px;
+}
+
+#cadre_accueil3 {
+  width:874px;
+  height:100px;
+  position:relative;
+  float:left;
+  background-image:url('../design/deco/font_bas_cadre.png');
+  margin-left:10px;
+  min-height:5px;
+}
+
+#cadre_accueil4 {
+  width:872px;
+  min-height:10px;
+  position:relative;
+  float:left;
+  background-image:url('../design/deco/bas_bas_cadre.png');
+  background-repeat:repeat-y;
+  margin-left:11px;
+  min-height:5px;
+}
+
+#cadre_accueil41 {
+  position:relative;
+  float:left;
+  text-align:center;
+  margin-left:6px;
+  margin-top:4px;
+  width:860px;
+}
+
+.img_acceuil {
+  height:85px;
+}
+
+#cadre_accueil5 {
+  width:872px;
+  height:20px;
+  position:relative;
+  float:left;
+  background-image:url('../design/deco/bas_font.png');
+  background-repeat:no-repeat;
+  margin-left:11px;
+  min-height:5px;
+}
+
+#cadre_accueil6 {
+  position:relative;
+  float:left;
+  width:100%;
+  text-align:center;
+  margin-top:85px;
+  font-weight:bold;
+}
+
+#cadre_accueil21 {
+  position:relative;
+  float:left;
+  width:505px;
+  margin-top:5px;
+  margin-left:12px;
+  margin-bottom:5px;
+  text-align:center;
+  font-weight:bold;
+  font-size:0.9em;
+}
+
+#cadre_accueil22 {
+  position:relative;
+  float:left;
+  margin-left:110px;
+  width:230px;
+}
+
+.news {
+  position:relative;
+  float:left;
+  margin-bottom:4px;
+  width:100%;
+}
+
+#news_ew {
+  position:relative;
+  float:left;
+  margin-top:40px;
+  margin-left:7px;
+  font-size:1.8em;
+}
+
+#cadre_display {
+  position:relative;
+  float:left;
+  height:50px;
+  width:700px;
+
+}
+
+#rejoignez_nous {
+  position:relative;
+  float:left;
+  margin-top:56px;
+  margin-left:340px;
+  font-size:2.4em;
+}
+
+input.accueil {
+  border:1px solid #857061;
+  width:147px;
+  background-color:#EAE7E1;
+}
+
+input.accueil {
+  border:1px solid #857061;
+  width:147px;
+  background-color:#EAE7E1;
+}
+
+input.resterco {
+  margin:0;
+}
+
+
+.form_inscription {
+  border:1px solid #000;
+  width:310px;
+  background-color:#f5efd0;
+}
+
+#droite_inscription {
+  position:relative;
+  float:left;
+  text-align:left;
+  width:320px;
+  margin-left:50px;
+  margin-top:20px;
+}
+
+#gauche_inscription {
+  position:relative;
+  float:left;
+  width:240px;
+  margin-left:170px;
+  margin-top:20px;
+}
+
+#pseudo_inscription {
+  position:relative;
+  float:left;
+  width:100%;
+  text-align:left;
+  margin-top:10px;
+}
+
+#mail_inscription {
+  position:relative;
+  float:left;
+  width:100%;
+  text-align:left;
+  margin-top:10px;
+}
+
+#pass_inscription {
+  position:relative;
+  float:left;
+  width:100%;
+  text-align:left;
+  margin-top:10px;
+}
+
+#pass_inscription3 {
+  position:relative;
+  float:left;
+  width:100%;
+  text-align:left;
+  margin-top:8px;
+}
+
+#pseudo_inscription2 {
+  position:relative;
+  float:left;
+  margin-top:8px;
+}
+
+#mail_inscription2 {
+  position:relative;
+  float:left;
+  margin-top:8px;
+}
+
+#pass_inscription2 {
+  position:relative;
+  float:left;
+  margin-top:8px;
+}
+
+#pass_inscription4 {
+  position:relative;
+  float:left;
+  margin-top:8px;
+}
+
+#titre_inscription {
+  position:relative;
+  float:left;
+  width:100%;
+  margin-bottom:20px;
+}

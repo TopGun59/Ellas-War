@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /nojavascript
+Disallow: /classementdesjoueurs-
+Disallow: /classementdesalliances-
+Disallow: /index2.php
+Disallow: /permalien
+Disallow: /erreur-404
+Disallow: /allianceexistepas

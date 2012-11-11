@@ -1,0 +1,2 @@
+<title>Questions fréquentes EllasWar.com Jeu de guerre multijoueurs et de stratégie en ligne gratuit sur le theme de l'antiquité grecque</title>
+<meta name="description" content="Questions fréquement posées sur le jeu. Si vous n'y trouvez pas vos réponses, n'hésitez pas à nous contacter via la page contact. Inscrivez-vous et partez à l'assault des autres peuples. EllasWar.Com est un jeu de stratégie en ligne gratuit au temps de l'antiquité grecque. Construisez votre cité et votre armée pour devenir le maître de toute une civilisation." />
