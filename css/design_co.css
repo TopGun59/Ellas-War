@@ -1,0 +1,1256 @@
+#banniere {
+  background-image:url('../design/co/banniere.png');
+}
+
+#barre_menu {
+  background-image:url('../design/co/barre_menu.png');
+}
+
+#bouton_construction {
+  position:relative;
+  float:left;
+  margin-left:115px;
+  z-index:1000;
+}
+
+#bouton_armee {
+  position:relative;
+  float:left;
+  margin-left:14px;
+  z-index:1000;
+}
+
+#bouton_archives {
+  position:relative;
+  float:left;
+  margin-left:12px;
+  z-index:1000;
+}
+
+#bouton_mythologie {
+  position:relative;
+  float:left;
+  margin-left:13px;
+  z-index:1000;
+}
+
+#bouton_alliance {
+  position:relative;
+  float:left;
+  margin-left:16px;
+  z-index:1000;
+}
+
+#bouton_forum {
+  position:relative;
+  float:left;
+  margin-left:24px;
+  z-index:1000;
+}
+
+#bouton_messagerie {
+  position:relative;
+  float:left;
+  margin-left:18px;
+  z-index:1000;
+}
+
+#bouton_marche {
+  position:relative;
+  float:left;
+  margin-left:11px;
+  z-index:1000;
+}
+
+#bouton_classement {
+  position:relative;
+  float:left;
+  margin-left:11px;
+  z-index:1000;
+}
+
+#bouton_extra {
+  position:relative;
+  float:left;
+  margin-left:14px;
+  z-index:1000;
+}
+
+#bouton_help {
+  position:relative;
+  float:left;
+  margin-left:23px;
+  margin-top:10px;
+}
+
+#plan_site {
+  position:relative;
+  float:left;
+  font-size:13px;
+  width:800px;
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -moz-column-rule: 1px dotted #BBBBBB;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  -webkit-column-rule: 1px dotted #BBBBBB;
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 1px dotted #BBBBBB;
+  margin-left:70px;
+}
+
+#menu_haut_bouclier {
+  position:absolute;
+  height:28px;
+  width:86px;
+  margin-left:583px;
+  background-image:url('../design/co/sous_menu_bouclier.png');
+  background-repeat:no-repeat;
+  z-index: 100;
+}
+
+#menu_haut_construction {
+  background-image:url('../design/co/menu_haut_construction.png');
+  background-repeat:no-repeat;
+  height:28px;
+
+  margin-left: 123px;
+}
+
+#bouton_haut_cite {
+  position:relative;
+  float:left;
+  margin-left:14px;
+}
+
+#bouton_haut_construire {
+  position:relative;
+  float:left;
+  margin-left:20px;
+}
+
+#bouton_haut_armurerie {
+  position:relative;
+  float:left;
+  margin-left:24px;
+}
+
+#bouton_haut_tresor {
+  position:relative;
+  float:left;
+  margin-left:22px;
+}
+
+#bouton_haut_bonus {
+  position:relative;
+  float:left;
+  margin-left:28px;
+}
+
+#bouton_haut_oracle {
+  position:relative;
+  float:left;
+  margin-left:11px;
+}
+
+#bouton_haut_sondage {
+  position:relative;
+  float:left;
+  margin-left:13px;
+}
+
+#bouton_haut_bonus {
+  position:relative;
+  float:left;
+  margin-left:100px;
+}
+
+#bouton_haut_faveurs {
+  position:relative;
+  float:left;
+  margin-left:8px;
+}
+
+#menu_haut_vide {
+  position:relative;
+  float:left;
+  width:100%;
+  height:10px;
+}
+
+.form_retirer {
+    background-color: #F5EFD0;
+    border: 1px groove black;
+}
+
+#simuler {
+  min-height:20px;
+  width:100%;
+  padding-top:5px;
+  font-size:1.1em;
+}
+
+
+#cadre_milieu_petit {
+  width:600px;
+  position:absolute;
+  background-image:url(../images/menu/milieu_cadre_petit.png);
+  background-repeat:repeat-y;
+  margin-left:145px;
+  margin-top:40px;
+  display:none;
+  z-index:1000;
+}
+
+#cadre_milieu_archive {
+  width:600px;
+  position:absolute;
+  background-image:url(../images/menu/milieu_cadre_petit.png);
+  background-repeat:repeat-y;
+  margin-left:150px;
+  margin-top:-10px;
+  z-index:10000;
+}
+
+#cadre_haut_petit, #cadre_haut_archive {
+  width:100%;
+  height:97px;
+  position:relative;
+  float:left;
+  background-image:url(../images/menu/haut_cadre_petit.png);
+  background-repeat:no-repeat;
+  text-align:right;
+}
+
+#cadre_bas_petit, #cadre_bas_archive {
+  width:100%;
+  height:14px;
+  position:relative;
+  float:left;
+  background-image:url(../images/menu/bas_cadre_petit.png);
+  background-repeat:no-repeat;
+}
+
+#cadre_centre_petit, #cadre_centre_archive {
+  margin-left:10px;
+  width:580px;
+}
+
+.supr_messagerie {
+  cursor : pointer;
+}
+
+.cadre_renta {
+  position:relative;
+  float:left;
+  margin-top:10px;
+  margin-left:25px;
+  width:400px;
+  height:125px;
+  padding:5px;
+  z-index:10000;
+  opacity:0.8;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background:white;
+  border:1px solid black;
+  font-size:12px;
+}
+
+.cadre_renta a {
+  text-decoration: none;
+}
+
+#menu_haut_armee {
+  background-image:url('../design/co/menu_haut_armee.png');
+  height:28px;
+  width:703px;
+  margin-left: 232px;
+}
+
+#bouton_haut_attaquer {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:15px;
+}
+
+#bouton_haut_passer {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:13px;
+}
+
+#bouton_haut_engager {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:13px;
+}
+
+#bouton_haut_mesattaques {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:15px;
+}
+
+#bouton_haut_stratdef {
+  position:relative;
+  float:left;
+  margin-top:4px;
+  margin-left:86px;
+}
+
+#bouton_haut_stratoff {
+  position:relative;
+  float:left;
+  margin-top:6px;
+  margin-left:16px;
+}
+
+#menu_haut_mythologie {
+  background-image:url('../design/co/menu_haut_mythologie.png');
+  background-repeat:no-repeat;
+  height:28px;
+  width:546px;
+  margin-left: 382px;
+}
+
+#bouton_haut_arbre {
+  position:relative;
+  float:left;
+  margin-left:8px;
+}
+
+#bouton_haut_autel {
+  position:relative;
+  float:left;
+  margin-left:5px;
+}
+
+#bouton_haut_temples {
+  position:relative;
+  float:left;
+  margin-left:79px;
+}
+
+#bouton_haut_statues {
+  position:relative;
+  float:left;
+  margin-left:12px;
+}
+
+#bouton_haut_prieres {
+  position:relative;
+  float:left;
+  margin-left:15px;
+}
+
+#bouton_haut_succes {
+  position:relative;
+  float:left;
+  margin-left:18px;
+}
+
+#bouton_haut_missions {
+  position:relative;
+  float:left;
+  margin-top:4px;
+  margin-left:30px;
+}
+
+#menu_haut_messagerie {
+  background-image:url('../design/co/menu_haut_messagerie.png');
+  height:28px;
+  width:640px;
+  margin-left: 173px;
+}
+
+#bouton_haut_listenoire {
+  position:relative;
+  float:left;
+  margin-top:1px;
+  margin-left:20px;
+}
+
+
+#bouton_haut_archivesmessagerie {
+  position:relative;
+  float:left;
+  margin-left:27px;
+  margin-top:7px;
+}
+
+#bouton_haut_envoie {
+  position:relative;
+  float:left;
+  margin-left:26px;
+  margin-top:5px;
+}
+
+#bouton_haut_reception {
+  position:relative;
+  float:left;
+  margin-left:19px;
+  margin-top:5px;
+}
+
+#bouton_haut_nouveau {
+  position:relative;
+  float:left;
+  margin-left:103px;
+  margin-top:7px;
+}
+
+#menu_haut_marche {
+  background-image:url('../design/co/menu_haut_marche.png');
+  height:28px;
+  width:765px;
+  margin-left: 173px;
+}
+
+#bouton_haut_donner {
+  position:relative;
+  float:left;
+  margin-left:19px;
+  margin-top:7px;
+}
+
+#bouton_haut_details {
+  position:relative;
+  float:left;
+  margin-left:19px;
+  margin-top:4px;
+}
+
+#bouton_haut_gros {
+  position:relative;
+  float:left;
+  margin-left:19px;
+  margin-top:5px;
+}
+
+#bouton_haut_vendre {
+  position:relative;
+  float:left;
+  margin-left:95px;
+  margin-top:7px;
+}
+
+#bouton_haut_licences {
+  position:relative;
+  float:left;
+  margin-left:11px;
+  margin-top:6px;
+}
+
+#bouton_haut_ventes {
+  position:relative;
+  float:left;
+  margin-left:14px;
+  margin-top:7px;
+}
+
+#bouton_haut_faveurs2 {
+  position:relative;
+  float:left;
+  margin-top:6px;
+  margin-left:19px;
+}
+
+#menu_haut_extra {
+  background-image:url('../design/co/menu_haut_extra.png');
+  height:28px;
+  width:901px;
+  margin-left: 121px;
+}
+
+#bouton_haut_contact {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:11px;
+}
+
+#bouton_haut_parrainage {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:13px;
+}
+
+#bouton_haut_biblio {
+  position:relative;
+  float:left;
+  margin-top:4px;
+  margin-left:15px;
+}
+
+#bouton_haut_pause {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:17px;
+}
+
+#bouton_haut_amis {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:14px;
+}
+
+#bouton_haut_mail {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:15px;
+}
+
+#bouton_haut_mdp {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:105px;
+}
+
+#bouton_haut_info {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:17px;
+}
+
+#bouton_haut_jeux {
+  position:relative;
+  float:left;
+  margin-top:7px;
+  margin-left:16px;
+}
+
+#tableau_taux {
+	margin:auto;
+	width:443px;
+	background-image:url('../images/com/panneau_taux_haut.png');
+	background-repeat:no-repeat;
+}
+
+.haut_tab_taux {
+	border-spacing:0;
+	width:443px;
+	height:26px;
+	color:white;
+	vertical-align:middle;
+}
+
+.haut_tab_taux th {
+	padding-top:8px;
+}
+
+.bas_tab_taux {
+	padding: 0px;
+	border: 0px;
+	border-spacing:0;
+	width:443px;
+	height:8px;
+	background-image:url('../images/com/panneau_taux_bas.png');
+	background-repeat:no-repeat;
+}
+
+tr.int_tab_taux0 {
+	width:443px;
+	height:21px;
+	padding: 0px;
+	border: 0px;
+	border-spacing:0;
+	background-image:url('../images/com/panneau_taux_interieur0.png');
+	background-repeat:no-repeat;
+}
+
+tr.int_tab_taux1 {
+	width:443px;
+	height:21px;
+	padding: 0px;
+	border: 0px;
+	border-spacing:0;
+	background-image:url('../images/com/panneau_taux_interieur1.png');
+	background-repeat:no-repeat;
+}
+
+.sep_tab_taux {
+	padding: 0px;
+	border: 0px;
+	border-spacing:0;
+	height:1px;
+	width:443px;
+	background-image:url('../images/com/panneau_taux_separateur.png');
+}
+
+#mp {
+	position:absolute;
+	margin-left:150px;
+	margin-top:10px;
+	width:300px;
+	padding:5px;
+	z-index:10000;
+	opacity:0.9;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:white;
+	border:1px solid black;
+	font-size:20px;
+	font-weight: bold;
+	color:red;
+	overflow:hidden;
+}
+
+#mp.a{
+	color:red;
+}
+
+#etape {
+	position:absolute;
+	margin-left:800px;
+	margin-top:10px;
+	width:250px;
+	padding:5px;
+	z-index:10000;
+	opacity:0.9;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:white;
+	border:1px solid black;
+	font-size:12px;
+	line-height:14px;
+}
+
+.cache_historique {
+	position:relative;
+	float:left;
+	margin-left:125px;
+	width:375px;
+	text-align:justify;
+	margin-top:5px;
+	margin-bottom:15px;
+	display:none;
+}
+
+
+#tableau_historique {
+	position:relative;
+	float:left;
+	width:600px;
+	margin-left:120px;
+	margin-top:20px;
+}
+
+.gauche_historique {
+	position:relative;
+	float:left;
+	width:120px;
+}
+
+.droite_historique {
+	position:relative;
+	float:left;
+	width:455px;
+	text-align:left;
+	margin-left:25px;
+	cursor : pointer;
+}
+
+.gauche_autel {
+	position:relative;
+	float:left;
+	width:220px;
+}
+
+.droite_autel {
+	position:relative;
+	float:right;
+	width:390px;
+}
+
+.cadre_50 {
+  position:relative;
+  float:left;
+  width:50%;
+}
+
+.cadre_33 {
+  position:relative;
+  float:left;
+  width:33.3%;
+}
+
+#tab_autel_dieux .cadre_33 img {
+  cursor : pointer;
+}
+
+#tab_statues .cadre_50 img {
+  cursor : pointer;
+}
+
+.liste_autels {
+  margin-left:120px;
+}
+
+.form_unites {
+    background-color: #F1DE9D;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    margin-top: 5px;
+    padding-right: 8px;
+    text-align: right;
+    width: 50px;
+}
+
+.minititre_armurerie {
+  cursor : pointer;
+  /*text-decoration:underline;*/
+  color:#b30000;
+  font-size:1.1em;
+  font-weight:bold;
+}
+
+.ligne_quart {
+  position:relative;
+  float:left;
+  width:25%;
+}
+
+#interieur5 {
+  min-height:480px;
+}
+
+#interieur4_gauche {
+  margin-top:48px;
+  line-height:14px;
+  font-size:12px;
+}
+
+#interieur4_droite {
+  margin-top:20px;
+  margin-left:9px;
+}
+
+#menu_stats2 {
+  margin-top:42px;
+}
+
+#menu_stats3 {
+  margin-top:35px;
+}
+
+#menu_stats {
+  position:relative;
+  float:right;
+  background-image:url('../design/co/panneau_stats2.png');
+  background-repeat:no-repeat;
+  background-position:left;
+  height:163px;
+  width:144px;
+}
+
+#menu_ressource2 {
+  margin-top:55px;
+  width:144px;
+}
+
+#menu_ressource {
+  position:relative;
+  float:left;
+  background-image:url('../design/co/Panneau_droitefin.png');
+  background-repeat:no-repeat;
+  background-position:right;
+  height:400px;
+  width:195px;
+}
+
+#tableau_ressources {
+  margin-left:15px;
+}
+
+.progress-bar {
+  width: 0px;
+  height: 16px;
+  padding: 2px 2px 3px 2px;
+  background-color: #E6DCBF;
+/*background-color: #191919;*/
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  position:relative;
+  float:left;
+  margin:10px;
+  margin-top:0px;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.progress-bar2:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  background: #999;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar2:after {
+  content: '|||||||||||||';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  overflow: hidden;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+  -moz-transform: skewX(-30deg);
+  -o-transform: skewX(-30deg);
+  font: bold 120px/80px sans-serif;
+  letter-spacing: -8px;
+  color: #000;
+  opacity: 0.06;
+}
+
+.progress-bar-txt {
+  display: block;
+  position: absolute;
+  z-index:1000;
+  width:100%;
+  color:white;
+  text-align:center;
+  text-shadow: 1px 1px 12px #000;
+  margin-top:1px;
+}
+
+.blue:before {
+  background: #099;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+  background: -moz-linear-gradient(top, #099, #006A6B);
+  background: -o-linear-gradient(#099, #006A6B);
+  background: -ms-linear-gradient(#099, #006A6B);
+  background: linear-gradient(#099, #006A6B);
+}
+
+.rouge:before {
+  background: #FF0000;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF0000), to(#D30000));
+  background: -moz-linear-gradient(top, #FF0000, #D30000);
+  background: -o-linear-gradient(#FF0000, #D30000);
+  background: -ms-linear-gradient(#FF0000, #D30000);
+  background: linear-gradient(#FF0000, #D30000);
+}
+
+.vert:before {
+  background: #77B33C;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#77B33C), to(#446622));
+  background: -moz-linear-gradient(#77B33C, #446622) repeat scroll 0 0 transparent;
+  background: -o-linear-gradient(#77B33C, #446622);
+  background: -ms-linear-gradient(#77B33C, #446622);
+  background: linear-gradient(#77B33C, #446622);
+}
+
+.jaune:before {
+  background: #FFCC33;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFCC33), to(#CC9900));
+  background: -moz-linear-gradient(#FFCC33, #CC9900) repeat scroll 0 0 transparent;
+  background: -o-linear-gradient(#FFCC33, #CC9900);
+  background: -ms-linear-gradient(#FFCC33, #CC9900);
+  background: linear-gradient(#FFCC33, #CC9900);
+}
+
+.orange:before {
+  background: #F28518;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F28518), to(#9D5209));
+  background: -moz-linear-gradient(#F28518, #9D5209) repeat scroll 0 0 transparent;
+  background: -o-linear-gradient(#F28518, #9D5209);
+  background: -ms-linear-gradient(#F28518, #9D5209);
+  background: linear-gradient(#F28518, #9D5209);
+}
+
+.progress-bar3 {
+  width:0px;
+  display: block;
+  position: absolute;
+}
+
+#menu_hf {
+  position:relative;
+  float:left;
+  width:154px;
+  height:384px;
+  background-image:url(../images/hf/font_hf2.png);
+  background-repeat:no-repeat;
+  text-align:left;
+  margin-top:10px;
+  margin-left:30px;
+}
+
+#menu_hf2 {
+  position:relative;
+  float:left;
+  width:154px;
+  height:384px;
+  background-image:url(../images/hf/font_hf2.png);
+  background-repeat:no-repeat;
+  text-align:left;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+#liste_hf {
+  position:relative;
+  float:left;
+  width:650px;
+  margin-top:11px;
+  margin-left:30px;
+}
+
+#hf_img_1 {
+  margin-top:13px;
+}
+
+.bouton_hf {
+  margin-top:7px;
+  margin-left:18px;
+  position:relative;
+  float:left;
+}
+
+.font_hf {
+  background-image:url(../images/hf/font_succes.png);
+  background-repeat:no-repeat;
+  height:73px;
+  width:624px;
+  position:relative;
+  float:left;
+  margin-bottom:5px;
+}
+
+.titre_hf {
+  position:relative;
+  float:left;
+  height:22px;
+  width:558px;
+  margin-top:5px;
+  color:white;
+  font-weight: bold;
+  text-align:center;
+}
+
+.txt_hf {
+  position:relative;
+  float:left;
+  width:558px;
+  text-align:center;
+}
+
+.pt_hf  {
+  position:relative;
+  float:right;
+  width:54px;
+  color:white;
+  font-weight: bold;
+  margin-left:9px;
+  margin-top:12px;
+  text-align:center;
+}
+
+#cadre_batiment_description {
+  width:642px;
+  height:270px;
+  margin:auto;
+  background-image:url('../design/co/contourgrand.png');
+}
+
+#cadre_batiment_types {
+  width:385px;
+  height:28px;
+  background-image:url('../design/co/menu4.png');
+  margin:auto;
+}
+
+#cadre_batiment_types2 {
+  margin-top:3px;
+  position:relative;
+  float:left;
+  font-size:1.3em;
+  text-align:center;
+	font-weight: bold;
+  width:100%;
+}
+
+#cadre_batiment_liste {
+  margin-left:24px;
+  margin-top:10px;
+  width:850px;
+  position:relative;
+  float:left;
+  background-color:#EAE6E1;
+}
+
+.cadre_batiment_unite {
+  height:150px;
+  width:150px;
+  position:relative;
+  float:left;
+  margin:10px;
+  cursor : pointer;
+}
+
+.cadre_batiment_nom {
+  text-align:center;
+  width:100%;
+  margin-top:117px;
+  height:33px;
+  position:relative;
+  float:left;
+  background-image:url('../design/co/plaque2.png');
+  z-index:1000;
+}
+
+.cadre_batiment_nom2 {
+  margin-top:9px;
+  text-align:center;
+  font-weight: bold;
+  font-size:1.1em;
+}
+
+#cadre_batiment_cache {
+  position:absolute;
+  margin-top:510px;
+  margin-left:140px;
+  width:622px;
+  height:260px;
+}
+
+.titre_batiment2 {
+  margin-top:2px;
+  margin-bottom:7px;
+  font-size:1.4em;
+  text-align:center;
+}
+
+.gauche_batiment {
+  position:relative;
+  float:left;
+  width:210px;
+}
+
+.droite_batiment {
+  position:relative;
+  float:left;
+  width:410px;
+  line-height:14px;
+}
+
+#lune {
+	position:absolute;
+	float:left;
+	z-index:1;
+	padding-left:5px;
+	padding-top:40px;
+}
+
+.texte1 {
+  min-height:30px;
+}
+
+.calendrier
+{
+  width:105px;
+  background-color: #F5EFD0;
+  border: 1px groove black;
+  font-size:14px;
+  background-image:url('../images/1290265476_control_play.png');
+  background-repeat:no-repeat;
+  background-position:right;
+  padding-top:2px;
+}
+
+.tableau_calendrier
+{
+  border:1px;
+  width:100%;
+}
+
+#erreur_bat {
+  position:absolute;
+  margin-top:235px;
+  width:642px;
+  margin-left:125px;
+}
+
+#menu_affaires {
+    float: left;
+    width: 200px;
+    margin-left:20px;
+}
+
+#corps_affaires {
+		width:600px;
+    margin: auto;
+    text-align: center;
+    float:right;
+}
+
+.avatar_messagerie {
+  position:relative;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+.avatar_messagerie2 {
+  position:relative;
+  float:left;
+}
+
+.arbre_bloc_noir {
+  background-color:black;
+  color:white;
+  text-align:center;
+  height:40px;
+  width:40px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin: 2px 2px 4px 2px;
+  border: 3px solid #2E2519;
+	cursor : pointer;
+}
+
+.arbre_bloc_noir .arbre_description {
+  display:none;
+  color:black;
+  padding:2px;
+  background: white;
+  padding: 3px;
+  opacity:0.9;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background:white;
+  border:1px solid black;
+  font-size:12px;
+  z-index:500;
+  position: absolute;
+  width:200px;
+}
+
+.arbre_bloc_noir:hover .arbre_description {
+  display: inline; /* On affiche l'infobulle. */
+  margin-top:45px;
+}
+
+.arbre_bloc_noir .compteur {
+  position:relative;
+  float:right;
+  margin-top:22px;
+  margin-right:1px;
+}
+
+a.details_ress {
+  color:#b30000 !important;
+  font-weight: bold;
+}
+
+#bloque_manque {
+  margin-top:-15px;
+  margin-bottom:15px;
+  position:relative;
+  float:left;
+  color:red;
+  width:100%;
+  text-align:center;
+  font-weight: bold;
+}
+
+#sanctuaire_menu_gauche {
+  position:relative;
+  float:left;
+  width:200px;
+}
+
+#sanctuaire_menu_droite {
+  position:relative;
+  float:left;
+  width:380px;
+}
+
+#sanctuaire_rapport {
+   float: right;
+    position: relative;
+    width: 380px;
+    text-align:center;
+}
+
+#evenement {
+  float:right;
+  margin-top:89px;
+  width:120px;
+  text-align:center;
+  margin-right:5px;
+}
+
+#evenement a {
+ text-decoration: none;
+}
+
+.cadre_guerre_bientot {
+  text-align:center;
+  width:80%;
+  margin:auto;
+}
+
+.cache_renta {
+  display:none;
+}
+
+#info_btn {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+  display: none;
+  margin-left: 420px;
+  opacity: 0.8;
+  padding: 5px;
+  position: absolute;
+  width: 350px;
+  z-index: 10000;
+}
+
+#cadre_btn {
+  background-image: url("../images/btn/carte.png");
+  height: 380px;
+  line-height: 0;
+  width: 380px;
+  margin-left:20px;
+}
+
+#cadre_btn img {
+  cursor: pointer;
+  border: 0 none;
+}
+

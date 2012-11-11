@@ -1,0 +1,704 @@
+body {
+  background-color:#A2BAF9;
+  background-color:#3694DB;
+  padding:0;
+  margin:0;
+  font-family: 'Times New Roman';
+  font-size:12px;
+  background-image:url('../design/deco/font_ew.png');
+  background-repeat:repeat-y;
+}
+
+img {
+	border:0px;
+}
+
+#page {
+  width:1250px;
+  margin:auto;
+}
+
+#banniere {
+  background-repeat:no-repeat;
+  width:1250px;
+  height:276px;
+  position:relative;
+  float:left;
+}
+
+nav {
+  position:relative;
+  float:left;
+}
+
+#barre_menu {
+  background-repeat:no-repeat;
+  width:1250px;
+  height:50px;
+}
+
+#centre_design {
+  background-image:url('../design/deco/font_design.png');
+  background-repeat:repeat-y;
+  width:1250px;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#centre_design2 {
+  background-repeat:no-repeat;
+  width:1250px;
+  position:relative;
+  float:left;
+  background-image:url('../design/deco/sous_menu.png');
+}
+
+#centre_design3 {
+  background-image:url('../design/deco/design_bas.png');
+  background-repeat:no-repeat;
+  background-position:bottom;
+  width:1250px;
+  position:relative;
+  float:left;
+}
+
+#interieur4_gauche {
+  position:relative;
+  float:left;
+  min-height:400px;
+  margin-top:100px;
+  width:162px;
+  text-align:center;
+}
+
+#interieur4_droite {
+  position:relative;
+  float:left;
+  min-height:400px;
+  margin-top:100px;
+  width:160px;
+  text-align:center;
+}
+
+#interieur4 {
+  position:relative;
+  float:left;
+  margin-top:25px;
+  margin-left:13px;
+  width:900px;
+  min-height:500px;
+  background-image:url('../design/tous/bas_font.png');
+  background-repeat:no-repeat;
+  background-position:bottom,center;
+}
+
+#interieur5 {
+  position:relative;
+  float:left;
+  width:890px;
+  min-height:425px;
+}
+
+#interieur5 a {
+  text-decoration:none;
+}
+
+#interieur6 {
+  float: left;
+  font-weight: bold;
+  margin-top: 55px;
+  margin-bottom:7px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  position:relative;
+  float:left;
+  width:100%;
+  min-width:1250px;
+  background-color:black;
+  color:white;
+  text-align:center;
+  margin:0;
+}
+
+#cadre_bannieres {
+  position:relative;
+  float:left;
+  width:100%;
+  min-width:1250px;
+  background-color:black;
+  color:white;
+  text-align:center;
+}
+
+#cadre_bannieres a {
+  color:white;
+}
+
+#heure {
+    color: white;
+    float: left;
+    margin-left: 57px;
+    margin-top: 16px;
+    position: relative;
+    font-style:italic;
+    font-weight:bold;
+    height:30px;
+    width:40px;
+}
+
+#heure2 {
+  color: brown;
+  font-weight:bold;
+  margin-top:41px;
+  margin-left:5px;
+  position:relative;
+  z-index:1000;
+  width:110px;
+  float:left;
+}
+
+#joueursconnectes {
+  margin-top:40px;
+  margin-left:40px;
+  position:relative;
+  z-index:1000;
+  width:110px;
+  float:left;
+}
+
+#bouton_missive {
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  margin-left:126px;
+  width:900px;
+}
+
+#bouton_missive a {
+  color:white;
+}
+
+#lien_ban {
+    display: block;
+    height: 99%;
+    width: 100%;
+}
+
+.centrer_tableau {
+  margin:auto;
+}
+
+.titre_tab {
+  font-weight:bold;
+  text-align:center;
+  font-size:1.1em;
+}
+
+a {
+  color:black;
+}
+
+h1 {
+  text-align:center;
+  margin-top:0;
+  font-size:28px;
+}
+
+.ligne {
+  width:100%;
+}
+
+.ligne80 {
+  width:80%;
+  margin:auto;
+}
+
+.cadre {
+  position:relative;
+  float:left;
+}
+
+.centrer {
+  text-align:center;
+}
+
+.gras {
+  font-weight:bold;
+}
+
+#plan_site a.titre {
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+#plan_site a.ss_titre {
+  margin-left:20px;
+}
+
+.rouge_goco {
+  color:#b30000 !important;
+}
+
+
+.bouton_classique {
+  border:1px solid #000;
+  background-color:#d9d2bf;
+  display: table;
+  margin:auto;
+}
+
+.bouton_classique:hover {
+  -moz-box-shadow:0 0 3px #000 inset;
+  -webkit-box-shadow:0 0 3px #000 inset;
+  box-shadow:0 0 3px #000 inset;
+}
+
+.bouton_classique2 {
+  border: 1px solid #cac3b1;
+  margin: 1px 2px 1px 2px;
+  padding:0px 3px 0px 3px;
+  font-size:1.2em;
+  color:#0c0400;
+  background-image:linear-gradient(#f0e9d6, #d2c9ac); /* Norme W3C */
+  background:-moz-linear-gradient(#f0e9d6, #d2c9ac); /* Firefox */
+  background:-webkit-linear-gradient(top, #f0e9d6 0%, #d2c9ac 100%); /* Chrome, Safari */
+  background-image:-o-linear-gradient(#f0e9d6, #d2c9ac); /* Opera */
+  background-image:-ms-linear-gradient(#f0e9d6, #d2c9ac); /* IE */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e9d6', endColorstr='#d2c9ac',GradientType=0 );
+  cursor : pointer;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.supr_messagerie, .img_temple {
+  cursor : pointer;
+}
+
+.titre_min_ban {
+  text-align:center;
+  font-weight:bold;
+}
+
+.part_banniere {
+  border:1px dotted #000000;
+  height:62px;
+  width:375px;
+}
+
+.min_ban2 {
+  text-align:left;
+  margin-left:48px;
+}
+
+.min_ban3 {
+  position:relative;
+  float:left;
+  width:100%;
+  text-align:center;
+}
+
+#contact_pseudo {
+  position:relative;
+  float:left;
+  margin-left:25px;
+}
+
+#contact_pseudo2 {
+  position:relative;
+  float:left;
+  margin-left:10px;
+}
+
+#contact_mail {
+  position:relative;
+  float:left;
+  margin-left:35px;
+}
+
+#contact_mail2 {
+  position:relative;
+  float:left;
+  margin-left:10px;
+}
+
+#contact_titre {
+  position:relative;
+  float:left;
+  margin-top:20px;
+  width:100%;
+}
+
+#contact_titre2 {
+  position:relative;
+  float:left;
+  margin-top:10px;
+  width:100%;
+}
+
+#contact_message {
+  position:relative;
+  float:left;
+  margin-top:20px;
+  width:100%;
+}
+
+#contact_message2 {
+  position:relative;
+  float:left;
+  margin-top:10px;
+  width:872px;
+}
+
+#contact_valider {
+  position:relative;
+  float:left;
+  margin-top:10px;
+  width:872px;
+}
+
+.text_large_deco {
+  font-size:1.6em;
+}
+
+.form_contact {
+  border:1px solid #000;
+  width:300px;
+  background-color:#f5efd0;
+}
+
+.message_contact {
+  border:1px solid #000;
+  width:400px;
+  height:290px;
+  background-color:#f5efd0;
+}
+
+.message_profils {
+  border:1px solid #000;
+  width:400px;
+  height:100px;
+  background-color:#f5efd0;
+}
+
+.erreur {
+  color:red;
+  font-weight:bold;
+}
+
+.jaune {
+  color:yellow;
+}
+
+.form_rech {
+  border:1px solid #000;
+  width:200px;
+  background-color:#f5efd0;
+  margin-bottom:5px;
+}
+
+.form_rech3 {
+  position:relative;
+  float:left;
+  margin-top:1px;
+}
+
+.form_rech4 {
+  position:relative;
+  float:left;
+  margin-left:10px;
+}
+
+.form_rech5 {
+  position:relative;
+  float:left;
+  margin-top:10px;
+  margin-left:40px;
+  text-align:center;
+  width:120px;
+}
+
+#cadre_classement {
+  position:relative;
+  float:left;
+}
+
+#class_gauche {
+  position:relative;
+  float:left;
+  width:48px;
+  height:100px;
+  margin-right:1px;
+  margin-top:229px;
+}
+
+#class_centre {
+  position:relative;
+  float:left;
+}
+
+#class_droite {
+  position:relative;
+  float:left;
+  width:48px;
+  height:100px;
+  margin-left:1px;
+  margin-top:230px;
+}
+
+.tableau {
+  background-image: url("../images/menu/haut_tab_class.png");
+  background-repeat: no-repeat;
+  border: 3px solid #99865B;
+  border-spacing: 0;
+  padding: 0;
+  width: 792px;
+  margin-top:2px;
+}
+
+.tableau2 {
+  background-image: url("../images/menu/haut_tab_class.png");
+  background-repeat: no-repeat;
+  border: 3px solid #99865B;
+  border-spacing: 0;
+  padding: 0;
+  margin-top:2px;
+  min-width:50%;
+}
+
+.tableau80 {
+  background-image: url("../images/menu/haut_tab_class.png");
+  background-repeat: no-repeat;
+  border: 3px solid #99865B;
+  border-spacing: 0;
+  padding: 0;
+  margin-top:2px;
+  min-width:80%;
+}
+
+.tableau80d {
+  background-image: url("../images/menu/haut_tab_class.png");
+  background-repeat: no-repeat;
+  border: 3px solid #99865B;
+  border-spacing: 0;
+  padding: 0;
+  margin-top:2px;
+  width:80%;
+}
+
+.tableau_header {
+  color: white;
+  font-size: 15px;
+  height: 30px;
+  text-align: center;
+}
+
+.tableau_header .titre_tab {
+  color:white;
+}
+
+.tableau_fond0 {
+  background-color:#eeecd8;
+  text-align:center;
+}
+
+.tableau_fond1 {
+  background-color:#e8e5d4;
+  text-align:center;
+}
+
+.tableau_fond2 {
+  height:0px;
+  background-color:#d7d1c3;
+  padding:0px;
+  margin:0px;
+}
+
+.tableau .login_class {
+  color: #9E3430 !important;
+}
+
+.gauche {
+  text-align:left;
+}
+
+.droite {
+  text-align:right;
+}
+
+.titre_profils {
+  font-size:18px;
+}
+
+.don_profils {
+ font-size:17px;
+}
+
+a.lien_rouge {
+  color:#AF0000;
+  text-decoration:none;
+}
+
+#cadre_com_profils {
+  position:relative;
+  float:left;
+  background-image:url('../images/menu/interieur.png');
+  background-repeat:repeat-y;
+  width:779px;
+  margin-left:48px;
+}
+
+#cadre_com_profils2 {
+  background-image:url('../images/menu/haut.png');
+  background-repeat:no-repeat;
+  width:779px;
+  height:13px;
+}
+
+#cadre_com_profils3 {
+  position:relative;
+  float:left;
+  background-image:url('../images/menu/bas.png');
+  background-repeat:no-repeat;
+  width:779px;
+  height:15px;
+}
+
+#cadre_com_profils4 {
+  position:relative;
+  float:left;
+  margin-left:15px;
+  margin-right:15px;
+  min-height:80px;
+}
+
+.joueur_bloque {
+  color:red !important;
+  font-weight:bold;
+}
+
+.joueur_pause {
+  color:orange !important;
+  font-weight:bold;
+}
+
+.joueur_manque {
+  color:green !important;
+  font-weight:bold;
+}
+
+.sortie_urgence {
+  color:purple;
+  font-weight:bold;
+}
+
+#cadre_avatar {
+  position:relative;
+  float:left;
+  min-height:210px;
+  width:220px;
+  margin-left:80px;
+}
+
+#cadre_info_joueur {
+  position:relative;
+  float:left;
+  font-size:14px;
+  width:200px;
+}
+
+#cadre_info_perso {
+  position:relative;
+  float:left;
+  font-size:14px;
+  margin-left:80px;
+  margin-top:10px;
+  width: 280px;
+}
+
+#cadre_contact {
+  position:relative;
+  float:left;
+  margin-left:20px;
+}
+
+#cadre_espace_profils {
+  position:relative;
+  float:left;
+  width:500px;
+}
+
+#description_profils {
+  position:relative;
+  float:left;
+  width:350px;
+  font-size:14px;
+  overflow:auto;
+}
+
+.cadre_droite {
+  width:100%;
+  position:relative;
+  float:left;
+  text-align:right;
+}
+
+.cadre_gauche {
+  width:100%;
+  position:relative;
+  float:left;
+  text-align:left;
+}
+
+.cadre_dedi {
+  background-color: #F1DE9D;
+  border: 1px solid white;
+  height: 100px;
+  margin-top: 3px;
+  width:600px;
+}
+
+.justifier {
+  text-align:justify;
+}
+
+.sous {
+  text-decoration:underline !important;
+}
+
+.justifier {
+  text-align:justify;
+}
+
+.interieur_mp {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+input.permalien {
+	background-color: #F1DE9D;
+	border: 1px solid white;
+	height: 18px;
+	margin-top: 3px;
+	width:340px;
+}
+
+#gauche_contact {
+	position:relative;
+	float:left;
+	width:250px;
+	min-height:1px;
+}
+
+#droite_contact {
+	position:relative;
+	float:right;
+	width:630px;
+}
+

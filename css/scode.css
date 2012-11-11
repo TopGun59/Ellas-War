@@ -1,0 +1,51 @@
+/* Polices */
+.arial { font-family: Arial; }
+.times { font-family: Times New Roman; }
+.courier { font-family: Courier; }
+.impact { font-family: Impact; }
+.verdana { font-family: Verdana; }
+/* Tailles */
+.minuscule { font-size: 8px; }
+.petit { font-size: 10px; }
+.moyenpetit { font-size: 11px; }
+.moyengrand { font-size: 13px; }
+.grand { font-size: 14px; }
+.enorme { font-size: 18px; }
+/* Alignement */
+.gauche { text-align: left; }
+.droite { text-align: right; }
+.centre { text-align: center; }
+.justifie { text-align: justify; }
+/* Styles */
+.gras { font-weight: bold; }
+.italique { font-style: italic; }
+.souligne { text-decoration: underline; }
+.barre { text-decoration: line-through; }
+.suligne { text-decoration: overline; }
+.encadre { border: 1px solid #0f3863; padding: 1px; padding-left: 3px; padding-right: 3px; margin-left: 1px; margin-right: 1px; }
+.surligne { padding: 0px; padding-left: 1px; padding-right: 1px; background-color: #0f3863; color: #f7f7f7; }
+/* Titres */
+.titre1 { display: inline; margin-bottom: 3px; font-family: Tahoma; font-size: 16px; font-variant: small-caps; font-weight: bold; color: #074381; } /* A personnaliser */
+.titre2 { display: inline; border-bottom: 1px solid #074381; padding-bottom: 2px; font-family: Tahoma; font-style: italic; font-weight: bold; font-size: 12px; color: #074381; } /* A personnaliser */
+/* Separation */
+.separation { height: 3px; background-color: #000000; margin-top: 2px; margin-bottom: 2px; } /* A personnaliser */
+/* Citation */
+.citation_auteur { margin: 5px; margin-bottom: 0px; padding: 0px; padding-left: 5px; font-weight: bold; color: #0f3863; }
+.citation { margin: 5px; margin-top: 0px; padding: 5px; padding-top: 2px; padding-bottom: 2px; border: 1px dashed #0f3863; }
+/* Liste */
+.puce { list-style-type: disc; list-style-position: outside; }
+/* Code */
+pre { margin: 0px; padding: 0px; white-space: nowrap; }
+pre a { text-decoration: none; }
+.code_type { margin: 5px; margin-bottom: 0px; padding: 0px; padding-left: 5px; font-weight: bold; color: #0f3863; }
+.code_nom { font-variant: small-caps; }
+.code { background-color: #f7f7f7; margin: 5px; margin-top: 0px; padding: 5px; padding-top: 2px; padding-bottom: 2px; border: 1px dashed #0f3863; }
+.infobulle{
+    position: absolute;   
+    visibility : hidden;
+    border: 1px solid Black;
+    padding: 10px;
+    font-family: Verdana, Arial;
+    font-size: 10px;
+    background-color: #FFFFCC;
+}
