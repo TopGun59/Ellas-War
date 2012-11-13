@@ -44,6 +44,10 @@ else {
 		echo '<td class="centrer">&nbsp;<font color=\'red\'><b>Contrats</b></font>&nbsp;</td>';
 		$j++;
 	}
+	if($paquet->getid() == $paquet->getidchef()) {
+		echo '<td class="centrer">&nbsp;<font color=\'red\'><b>Blocus</b></font>&nbsp;</td>';
+		$j++;
+	}
 }
 
 echo '</tr>';
@@ -109,6 +113,13 @@ echo '</tr>';
 						 onclick="javascript:declarer_contrat('.$all->id.');" />';
 				}
 				echo '</td>';
+			}
+			
+			if($all->peut_blocus) {
+				echo '<td class="centrer"><img src="images/alliance/flag_orange.png"
+						 alt="Poser un blocus" title="Poser un blocus" 
+						 class="supr_messagerie" 
+						 onclick="javascript:declarer_blocus('.$all->id.');" /></td>';
 			}
 		}
 		echo '</tr>';

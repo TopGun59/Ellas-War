@@ -216,22 +216,28 @@ switch($paquet->get_level()) {
 	case 1:
 	 echo '<tr><td><b>Calendrier</b> afin d\'organiser votre alliance</td></tr>
 	 <tr><td>Possibilité de retirer <b>toutes les ressources</b> du coffre d\'alliance</td></tr>
+	 <tr><td>Possibilité de recevoir <b>des contrats</b></td></tr>
+	 <tr><td>Possibilité de recevoir <b>des blocus</b></td></tr>
 	';
 	
 	break;
 	case 2:
 	 echo '<tr><td>Possiblité de <b>doubler la cotisation</b></td></tr>
-	 <tr><td>Possibilité de lancer <b>des contrats</b></td></tr>
-	 <tr><td>Possibilité de valider <b>des contrats</b></td></tr>
+	 	 <tr><td>Possibilité de lancer <b>des contrats</b></td></tr>
 	 <tr><td>Possibilité de recevoir une <b>3<sup>ème</sup> guerre</b> si vous êtes la source des deux en cours</b></td></tr>
 	';
 	break;
 
 	case 3:
 	 echo '<tr><td>Possiblité de <b>doubler la cotisation</b></td></tr>
+	 <tr><td>Possibilité de lancer des <b>blocus</b></td></tr>
 	 <tr><td>Possibilité pour vos membres d\'acheter une <b>armurerie</b></td></tr>
 	 <tr><td>Possibilité pour les membres de cotiser volontairement des drachmes</b></td></tr>
 	';
+	break;
+
+	case 4:
+	
 	break;
 }
 

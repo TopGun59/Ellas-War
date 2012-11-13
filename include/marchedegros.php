@@ -45,7 +45,10 @@ else {
 	$nb_lots = $paquet->getRetour();
 	$liste_lots= $paquet->getRetour(2);
 	
-	include('lang/'.LANG.'/include/marchedegros.php');
+	if($paquet->getRetour(3) == true)
+		$paquet->display(228);
+	else
+		include('lang/'.LANG.'/include/marchedegros.php');
 }
 
 ?>

@@ -36,6 +36,9 @@ elseif(!empty($_POST['declarer'])) {
 												 			 $_POST['or'], $_POST['ultimatum'], $page));
 	$resultat = $paquet->getRetour(3);
 }
+elseif(!empty($_POST['imposer']) && !empty($_POST['alliance'])) {
+	$paquet = new EwPaquet('proposer_blocus', array($_POST['alliance']));
+}
 else {
 	$paquet = new EwPaquet('get_listealliances', array($page));
 }

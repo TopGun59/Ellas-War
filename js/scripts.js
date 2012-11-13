@@ -384,6 +384,15 @@ function declarer_contrat(id) {
    });
 }
 
+function declarer_blocus(id) {
+   $.ajax({
+     type: "GET",
+     url: "form/declarer_blocus.php",
+     data: "alliance="+id,
+     success: function(msg){ $("#cadre_centre_petit").html(msg);$("#cadre_milieu_petit").show("slow"); }
+   });
+}
+
 function fermer_pacte() {
 	$("#cadre_milieu_petit").hide("slow");
 }

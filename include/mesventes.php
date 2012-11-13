@@ -13,7 +13,10 @@ else {
 	$mesventes = $paquet->getRetour();
 	$taux = $paquet->get_taux_rachat();
 	
-	include('lang/'.LANG.'/include/mesventes.php');
+	if($paquet->getRetour(3) == true)
+		$paquet->display(228);
+	else
+		include('lang/'.LANG.'/include/mesventes.php');
 }
 
 ?>

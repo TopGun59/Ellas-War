@@ -79,9 +79,14 @@ else {
 &nbsp;
 
 <?php
-if($mon_alliance -> level > 2 && $paquet->peut_contrat() > 0) {
+if($mon_alliance -> level >= 3 && $paquet->peut_contrat() > 0) {
 	echo '&nbsp;<a href=\'Contrats\' ><img src="images/alliance/contrats.png" alt="Contrats" title="Contrats" /></a>&nbsp;';
 }
+
+if($mon_alliance -> level >= 2) {
+	echo '&nbsp;<a href=\'Blocus\' ><img src="images/alliance/blocus.png" alt="Contrats" title="Contrats" /></a>&nbsp;';
+}
+
 ?>
 
 &nbsp;

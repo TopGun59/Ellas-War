@@ -544,6 +544,10 @@ function erreur($no_erreur, $var='') {
 		break;
 	case 226: $erreur = 'Vous ne pouvez plus engager cette unité.';
 		break;
+	case 227: $erreur = 'Vous venez d\'imposer un blocus commercial à l\'alliance '.$var.'.';
+		break;
+	case 228: $erreur = 'Vous ne pouvez pas acheter de lot durant un blocus';
+		break;
 	//case : $erreur = "";break;
 			default: $erreur = "";	break;
 		}
