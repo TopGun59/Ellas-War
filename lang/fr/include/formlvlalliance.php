@@ -25,10 +25,11 @@ switch($paquet->get_level()) {
 	break;
 
 	case 3:
-	 echo '<tr><td>Possiblité de <b>doubler la cotisation</b></td></tr>
+	 echo '
 	 <tr><td>Possibilité de lancer des <b>blocus</b></td></tr>
 	 <tr><td>Possibilité pour vos membres d\'acheter une <b>armurerie</b></td></tr>
 	 <tr><td>Possibilité pour les membres de cotiser volontairement des drachmes</b></td></tr>
+	 <tr><td>Nouveau mode de <b>cotisation</b></td></tr>
 	';
 	break;
 

@@ -18,8 +18,15 @@ elseif(!empty($_POST['super_grade_mini'])) {
 	'raisin'	=> round(abs($_POST['raisin'])),
 	'vin'			=> round(abs($_POST['vin'])));
 	$super=abs(round($_POST['super_grade_mini']));
+	
+	if(empty($_POST['mode'])) {
+		$mode = 0;
+	}
+	else {
+		$mode = 1;
+	}
 
-	$paquet = new EwPaquet('maj_cotisation', array($cotisation, $super));
+	$paquet = new EwPaquet('maj_cotisation', array($cotisation, $super, $mode));
 }
 else {
 	$paquet = new EwPaquet('get_cotisation');

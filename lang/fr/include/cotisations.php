@@ -22,7 +22,17 @@ echo '<div class="centrer">
 Niveau minimal : 
 <input type="text" name="super_grade_mini" 
 			 maxlength="2" size="2" value="'.$info->lvl_mini.'" 
-			 class="form_retirer" required="required" /><br/><br/></div>';
+			 class="form_retirer" required="required" /><br/>';
+if($info->level >= 4) {
+	if($info->mode == 1) {
+		echo '<input type="checkbox" name="mode" checked="checked" /> Mode sans déficite';
+	}
+	else {
+		echo '<input type="checkbox" name="mode" /> Mode sans déficite';
+	}
+}
+
+echo '<br/><br/></div>';
 
 echo "<table class='centrer_tableau'>
 	<tr align='center'>
@@ -98,6 +108,12 @@ if($info->level >= 4) {
 				 value='".$paquet->get_cotise_volontaire()."'
 				 class='form_retirer' />% ".imress('drachme')." gagnés (max : 25%)
 	<br/><br/>";
+	if($info->mode == 1) {
+		echo 'Mode : sans déficite<br/>';
+	}
+	else {
+		echo 'Mode : classique<br/>';
+	}
 }
 
 echo '</div>
