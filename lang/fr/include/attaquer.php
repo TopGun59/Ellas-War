@@ -96,6 +96,9 @@ if($nombreDePages > 1) {
 <input type='hidden' name='page' value='liste' />
 <input type="text" name="recherche" class="form_retirer cadre" style="margin-top:3px;margin-left:48px;margin-right:5px;" required="required" /> <div class="bouton_classique cadre"><input class="bouton_classique2" type="submit" value="RECHERCHER" name="rechercher" /></div>
 </form>
+	<div style="float:right;position:relative;margin-right:50px;">
+		<a href="Diamant"><img src="images/attaques/diamant.png" alt="Diamant des dieux" title="Diamant des dieux" /></a>
+	</div>
 </div>
 <?php
 
