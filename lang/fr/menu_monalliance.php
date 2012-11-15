@@ -84,7 +84,7 @@ if($mon_alliance -> level >= 3 && $paquet->peut_contrat() > 0) {
 }
 
 if($mon_alliance -> level >= 2) {
-	echo '&nbsp;<a href=\'Blocus\' ><img src="images/alliance/blocus.png" alt="Contrats" title="Contrats" /></a>&nbsp;';
+	echo '&nbsp;<a href=\'Blocus\' ><img src="images/alliance/blocus.png" alt="Blocus" title="Blocus" /></a>&nbsp;';
 }
 
 ?>
