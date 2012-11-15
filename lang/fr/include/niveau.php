@@ -218,6 +218,7 @@ switch($paquet->get_level()) {
 	 <tr><td>Possibilité de retirer <b>toutes les ressources</b> du coffre d\'alliance</td></tr>
 	 <tr><td>Possibilité de recevoir <b>des contrats</b></td></tr>
 	 <tr><td>Possibilité de recevoir <b>des blocus</b></td></tr>
+	 <tr><td>Possibilité d\'annuler une guerre déclarée par votre alliance, pendant <b>2 heures</b> après la déclaration</td></tr>
 	';
 	
 	break;
@@ -238,7 +239,9 @@ switch($paquet->get_level()) {
 	break;
 
 	case 4:
-	
+	 echo '
+	<tr><td>Possibilité d\'annuler une guerre déclarée par votre alliance, pendant <b>12 heures</b> après la déclaration</td></tr>
+	';
 	break;
 }
 
