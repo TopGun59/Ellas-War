@@ -19,7 +19,7 @@
 		echo '<td>&nbsp;&nbsp;</td></tr>';
 	}
 
-	$temps_mois = time() - 30*24*3600;
+	$temps_mois = time() - 20*24*3600;
 
 	foreach ($liste_membres as $do) {
 		echo '<tr id="ligne_'.$do->id.'"><td>';
