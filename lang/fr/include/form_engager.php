@@ -68,11 +68,14 @@ echo	'</td>
 
 <td valign="top">';
 
-if(!empty($value -> attaque) && !empty($value -> defense))
-	echo '<b>'.$value -> attaque.' '.img('images/attaques/dague.png', 'attaque').' '.
-			 $value -> defense.' '.img('images/attaques/bouclier.png', 'défense').
-			 '</b><br/>';
+if(!empty($value -> attaque)) {
+	echo '<b>'.$value -> attaque.'</b> '.img('images/attaques/dague.png', 'attaque').' ';
+}
 
+if(!empty($value -> defense)) {
+	echo '<b>'.$value -> defense.'</b> '.img('images/attaques/bouclier.png', 'défense').'</b><br/>';
+}
+			
 $temples = $paquet -> getTemples();
 
 if(($bat == 'spartiate' && !in_array('ares', $temples)) or empty($value->max)) {
