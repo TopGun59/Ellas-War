@@ -9,7 +9,7 @@ else {
 		}
 		
 		$paquet = new EwPaquet('vendre_lot',
-													 array($_POST['nbressource'], $_POST['type'],
+													 array(str_replace(' ', '', $_POST['nbressource']), $_POST['type'],
 													 			 $_POST['vente'], $_POST['prixressource'],
 													 			 $_POST['cle'], $_POST['anonyme']));
 	}
