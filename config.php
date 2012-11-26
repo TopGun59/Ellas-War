@@ -7,7 +7,6 @@ setlocale (LC_TIME, 'fr_FR');
 date_default_timezone_set('Europe/Paris');
 define('ID_ADMIN', 35245);
 define('ID_ADMIN', 35245);
-define('ID_ADMIN', 35245);
 define('LVL_MINI_XP', 7);
 define('LVL_MINI_ALLIANCE', 7);
 $minimum_lvl_ress = array('pierre' => 1,
