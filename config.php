@@ -1,7 +1,7 @@
 <?php
 
 define('SITE_URL', 'http://v5.ellaswar.com');
-define('API_URL', 'http://servicev5.ellaswar.com/index.php');
+define('API_URL', 'http://serverv5.ellaswar.com/index.php');
 define('LANG', 'fr');
 setlocale (LC_TIME, 'fr_FR');
 date_default_timezone_set('Europe/Paris');
