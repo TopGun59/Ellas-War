@@ -1,11 +1,13 @@
 <?php
 
 define('SITE_URL', 'http://v5.ellaswar.com');
-define('API_URL', 'http://apiv5.ellaswar.com/index.php');
+define('API_URL', 'http://servicev5.ellaswar.com/index.php');
 define('LANG', 'fr');
 setlocale (LC_TIME, 'fr_FR');
 date_default_timezone_set('Europe/Paris');
-define('ID_ADMIN', 457);
+define('ID_ADMIN', 35245);
+define('ID_ADMIN', 35245);
+define('ID_ADMIN', 35245);
 define('LVL_MINI_XP', 7);
 define('LVL_MINI_ALLIANCE', 7);
 $minimum_lvl_ress = array('pierre' => 1,
